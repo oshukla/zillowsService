@@ -17,7 +17,7 @@ namespace SwaggerUi.Controllers
 {
     public class SearchAddressController : ApiController
     {
-        private readonly RestClient client = new RestClient("https://www.zillow.com");
+        private readonly RestClient client = new RestClient("https://www.zillow.com") ;
         // GET: api/SearchAddress/5
         /// <summary>
         /// The GetSearchResults API finds a property for a specified address. The content returned contains the address for the property or properties as well as the Zillow Property ID (ZPID) and current Zestimate®. It also includes the date the Zestimate was computed, a valuation range and the Zestimate ranking for the property within its ZIP code.
